@@ -1,0 +1,67 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+body { 
+    background-color: #303030; 
+    color: #fff; }
+
+    .simpleTable {
+      font-family: 'Times New Roman', Times, serif;
+      width: 100%;
+      margin-left: 0%;
+      margin-right: 0%;
+      font-size: large;
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .descriptionTbl {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #3030; 
+      color: #fff;
+      font-size: xx-large;
+      text-align: left;
+      font-style: italic;
+      margin-bottom: 40px;
+      margin-right: 2%;
+      margin-left: 2%;
+      margin-top: 10px;
+    
+    }
+
+    .greaterArea tr td { 
+        width:100%; 
+    }
+  
+#chartdiv3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#chartdiv4 {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  text-align:center; 
+  margin-left:auto; 
+  margin-right:auto; 
+  font-family:'Times New Roman', Times, serif;
+
+}
+
+#titlediv {
+  margin-left: 0%;
+  margin-top: 2%;
+  
+}
+
+img {
+  margin-left: 0%;
+  margin-right: 0%;
+  height: fill;
+  width: 100%;
+  }

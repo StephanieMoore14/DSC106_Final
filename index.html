@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Golden State Warriors</title>
+
+        <!-- Internal stylesheet import begin -->
+        <link rel="stylesheet" href="main.css">
+        <!-- Internal stylesheet import end-->
+
+        <!-- External imports begin -->
+        <script src="https://www.amcharts.com/lib/4/core.js"></script>
+        <script src="https://www.amcharts.com/lib/4/charts.js"></script>    
+        <script src="https://www.amcharts.com/lib/4/plugins/timeline.js"></script>
+        <script src="https://www.amcharts.com/lib/4/themes/dark.js"></script>
+        <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+        <!-- External imports end -->
+        
+    </head>
+
+    <body> 
+        <table class="header" width="100%" height="200px">
+            <tr>
+                <td width="100%"><img src="/assets/header.png" alt="assist" class="img" margin="0">
+             </tr>
+        </table>
+
+        <table class="simpleTable">      
+            <tr>
+                
+                <tr>
+                    <td id="introdiv" width="50%">
+                            <img src="assets/qt.gif" alt="pic">
+
+                    </td>
+                    <td id="chartdiv1" width="50%">
+                        <!-- <div class="infogram-embed" data-id="7ed5821c-d2df-4c05-ae2a-7f4e6562bdb0" data-type="interactive" data-title="gs_playoffs"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><a href="https://infogram.com/7ed5821c-d2df-4c05-ae2a-7f4e6562bdb0" style="color:#989898!important;text-decoration:none!important;" target="_blank">gs_playoffs</a><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;" target="_blank" rel="nofollow">Infogram</a></div> -->
+                        <img src="assets/gs_playoffs.png" alt="pic">
+                    </td>
+                </tr>
+
+                <!-- <tr>                
+                    <td id='extra_space' colspan="2" width="100%" height="100px" margin="0">
+
+                    <td>
+                </tr> -->
+
+            </tr>
+
+            <tr>
+                <tr>
+                    <td colspan="2" width="100%">
+                        <img src="assets/piecharts.png" alt="pic">
+                        <!-- <div class="infogram-embed" data-id="a36d01a6-1d1a-4a94-8c02-873918e308a7" data-type="interactive" data-title="PieCharts"></div><script>!function(e,i,n,s){var t="InfogramEmbeds",d=e.getElementsByTagName("script")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement("script");o.async=1,o.id=n,o.src="https://e.infogram.com/js/dist/embed-loader-min.js",d.parentNode.insertBefore(o,d)}}(document,0,"infogram-async");</script> -->
+                    </td>
+                </tr>
+                <tr>                
+                    <td id='extra_space' colspan="2" width="100%" height="150px" margin="0">
+
+                    <td>
+                </tr>
+            </tr>
+
+            <tr>
+                <td id="chartdiv3" width="45%" height="800px"></td>
+                <td id="chartdiv4" width="45%" height="800px" ></td>
+            </tr>
+        </table>
+        <!-- Internal JS imports begin -->
+        <script src="chart2.js"></script>
+        <script src="chart3.js"></script>
+        <script src="chart4.js"></script>
+        <!-- Internal JS imports end -->
+        
+        <table class="descriptionTbl">
+            <tr>
+                <td id='chart3Desc' width="50%" height="250px">
+                    A greater number of passes indicates that each player 
+                    touches the ball more. This idea of "sharing the basketball" 
+                    is key concept of teamwork.
+                <td>
+                <td id='chart4Desc' width="45%" height="250px">
+                    The winning percentage is the number of games a team wins
+                    divided by the total number of games they've played.
+                    The size of the circles represents the number of assists 
+                    the Warriors averaged per game over that span of 5 years.
+                </td>
+            </tr>
+        </table>
+
+    </body>
