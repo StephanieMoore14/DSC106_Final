@@ -7,7 +7,7 @@ As may be aware of, the warriors are a NBA team have had a huge amount of succes
 In this dashboard I will demonstrate how the warriors ability to work as a team has made them one of the best in the world.
 
 ----
-**This idea came partly from domain knowledge and also media observance of the Warriors being labeled as a team with good chemistry. Some things we chose to explore that seemed to quantify “teamwork” were passes between the players as well as assists, which are passes from a teammate directly resulting in a scored basket (not a player dribbling individually).**
+This idea came partly from domain knowledge and also media observance of the Warriors being labeled as a team with good chemistry. Some things we chose to explore that seemed to quantify “teamwork” were passes between the players as well as assists, which are passes from a teammate directly resulting in a scored basket (not a player dribbling individually).
 ----
 
 The website is hosted [here](https://stephaniemoore14.github.io/DSC106_Final/).
